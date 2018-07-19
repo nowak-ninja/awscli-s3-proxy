@@ -11,7 +11,7 @@ setup(
     description='S3 proxy plugin for AWS CLI',
     long_description=open('README.md').read(),
     author='Sebastian Nowak',
-    author_email='snowak@bluesoft.net.pl',
+    author_email='sebastian@nowak.ninja',
     url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy',
     download_url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy/archive/0.2.tar.gz',
     keywords=['awscli', 'plugin', 's3', 'proxy'],
