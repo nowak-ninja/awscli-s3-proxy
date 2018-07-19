@@ -58,4 +58,4 @@ You can follow the [guide by AWS](https://docs.aws.amazon.com/cli/latest/usergui
     export HTTPS_PROXY=http://proxy-host.com:8080
     export HTTP_PROXY=http://proxy-host.com:8080
 
-Remember that after setting these variables, ALL awscli request will be going through proxy!
+Remember that after setting these variables, `ALL` awscli requests will be going through proxy!
