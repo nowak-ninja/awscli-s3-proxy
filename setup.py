@@ -7,13 +7,13 @@ requires = ['awscli>=1.11.0']
 setup(
     name='awscli-plugin-s3-proxy',
     packages=['awscli_plugin_s3_proxy'],
-    version='0.1',
+    version='0.2',
     description='S3 proxy plugin for AWS CLI',
     long_description=open('README.md').read(),
     author='Sebastian Nowak',
     author_email='snowak@bluesoft.net.pl',
     url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy',
-    download_url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy/archive/0.1.tar.gz',
+    download_url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy/archive/0.2.tar.gz',
     keywords=['awscli', 'plugin', 's3', 'proxy'],
     install_requires=requires,
     classifiers = []
