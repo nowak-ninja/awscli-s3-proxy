@@ -63,3 +63,7 @@ You can follow the [guide by AWS](https://docs.aws.amazon.com/cli/latest/usergui
     export HTTP_PROXY=http://proxy-host.com:8080
 
 Remember that after setting these variables, `ALL` awscli requests will be going through proxy!
+
+Additionally, if You are using awscli on EC2 host, add `NO_PROXY` variable to allow awscli communicate with metadata endpoint:
+
+    NO_PROXY=169.254.169.254
