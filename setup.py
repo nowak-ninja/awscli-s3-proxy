@@ -13,7 +13,7 @@ setup(
     author='Sebastian Nowak',
     author_email='snowak@bluesoft.net.pl',
     url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy',
-    download_url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy/tarball/0.1',
+    download_url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy/archive/0.1.tar.gz',
     keywords=['awscli', 'plugin', 's3', 'proxy'],
     install_requires=requires,
     classifiers = []
