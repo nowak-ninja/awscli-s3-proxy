@@ -49,6 +49,10 @@ Now you can access S3 using proxy with profile:
 
     $ aws s3 ls --profile test
 
+If You want to use profile without passing it every time as parameter, use environment variable, ex:
+
+    export AWS_PROFILE=test
+
 Alternative (classic) method
 ------------------
 You can follow the [guide by AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-http-proxy.html) which describes how to use proxy using system environment variables. Here is the example:
