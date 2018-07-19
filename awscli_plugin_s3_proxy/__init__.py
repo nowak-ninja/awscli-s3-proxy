@@ -16,7 +16,7 @@ def set_proxy_from_profile(parsed_args, **kwargs):
         session.set_config_variable('profile', parsed_args.profile)
     service_proxy = get_proxy_from_profile(session.get_scoped_config(), command)
     if service_proxy is not None:
-        print(f'Using S3 proxy: {service_proxy}')
+        print('Using S3 proxy: ' + service_proxy)
         os.environ["http_proxy"] = service_proxy
         os.environ["https_proxy"] = service_proxy
         os.environ["HTTP_PROXY"] = service_proxy
