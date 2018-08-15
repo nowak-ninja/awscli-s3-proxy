@@ -44,6 +44,8 @@ The above command adds below section to your profile:
     [profile test]
     s3 =
         proxy = http://proxy-host.com:8080
+    s3api =
+        proxy = http://proxy-host.com:8080
 
 Now you can access S3 using proxy with profile:
 
@@ -62,7 +64,7 @@ You can follow the [guide by AWS](https://docs.aws.amazon.com/cli/latest/usergui
     export HTTP_PROXY=http://proxy-host.com:8080
     export HTTPS_PROXY=http://proxy-host.com:8080
 
-Remember that after setting these variables, `ALL` awscli requests will be going through proxy!
+Remember that after setting these variables, `ALL` clients using this settings will be going through proxy!
 
 Additionally, if You are using awscli on EC2 host, add `NO_PROXY` variable to allow awscli communicate with metadata endpoint:
 
