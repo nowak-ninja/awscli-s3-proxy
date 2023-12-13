@@ -1,34 +1,34 @@
-awscli-plugin-s3-proxy
+awscli-plugin-proxy
 =============
 
-This awscli plugin allows usage of proxy for S3 service stored in profile configuration.
+This awscli plugin allows usage of proxy for AWS services as configured in profile configuration.
 
 ------------
 Installation
 ------------
 
-The easiest way to install awscli-plugin-s3-proxy is to use `pip`:
+The easiest way to install awscli-plugin-proxy is to use `pip`:
 
-    $ pip install awscli-plugin-s3-proxy
+    $ pip install awscli-plugin-proxy
 
 You can also install the latest package from GitHub source which can contain changes not yet pushed to PyPI:
 
-    $ pip install git+https://github.com/nowak-ninja/awscli-plugin-s3-proxy.git
+    $ pip install git+https://github.com/cyralinc/awscli-plugin-proxy.git
 
 or, if you install `awscli` via Homebrew, which bundles its own python, install as following:
 
-    $ /usr/local/opt/awscli/libexec/bin/pip install awscli-plugin-s3-proxy
+    $ /usr/local/opt/awscli/libexec/bin/pip install awscli-plugin-proxy
 
 
 ---------------
 Getting Started
 ---------------
 
-Before using awscli-plugin-s3-proxy plugin, you need to [configure awscli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) first.
+Before using awscli-plugin-proxy plugin, you need to [configure awscli](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html) first.
 
-**MUST**: Once that's done, to enable `awscli-plugin-s3-proxy` plugin, you can run:
+**MUST**: Once that's done, to enable `awscli-plugin-proxy` plugin for S3, you can run:
 
-    $ aws configure set plugins.s3-proxy awscli_plugin_s3_proxy
+    $ aws configure set plugins.s3-proxy awscli_plugin_proxy
 
 The above command adds below section to your aws config file. You can also directly edit your `~/.aws/config` with below configuration.
 
