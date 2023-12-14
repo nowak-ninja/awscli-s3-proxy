@@ -7,8 +7,8 @@ requires = []
 setup(
     name='awscli-plugin-proxy',
     packages=['awscli_plugin_proxy'],
-    version='0.5',
-    description='Proxy plugin for AWS CLI',
+    version='0.5.1',
+    description='Proxy plugin for AWS CLI (based on https://github.com/nowak-ninja/awscli-s3-proxy)',
     long_description=open('README.md').read(),
     author='Sebastian Nowak',
     author_email='sebastian@nowak.ninja',
