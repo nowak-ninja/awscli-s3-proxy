@@ -2,19 +2,19 @@
 import sys
 from setuptools import setup
 
-requires = ['awscli>=1.11.0']
+requires = []
 
 setup(
-    name='awscli-plugin-s3-proxy',
-    packages=['awscli_plugin_s3_proxy'],
-    version='0.5',
-    description='S3 proxy plugin for AWS CLI',
+    name='awscli-plugin-proxy',
+    packages=['awscli_plugin_proxy'],
+    version='0.5.1',
+    description='Proxy plugin for AWS CLI (based on https://github.com/nowak-ninja/awscli-s3-proxy)',
     long_description=open('README.md').read(),
     author='Sebastian Nowak',
     author_email='sebastian@nowak.ninja',
-    url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy',
-    download_url='https://github.com/nowak-ninja/awscli-plugin-s3-proxy/archive/0.5.tar.gz',
-    keywords=['awscli', 'plugin', 's3', 'proxy'],
+    url='https://github.com/cyralinc/awscli-plugin-proxy',
+    download_url='https://codeload.github.com/cyralinc/awscli-plugin-proxy/zip/refs/heads/master',
+    keywords=['awscli', 'plugin', 'proxy'],
     install_requires=requires,
     classifiers = []
 )
