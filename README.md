@@ -1,5 +1,5 @@
 awscli-plugin-proxy
-=============
+===================
 
 This awscli plugin allows usage of proxy for AWS services as configured in profile configuration.
 
@@ -42,10 +42,10 @@ To add proxy configure to a profile (assuming you have a **test** profile), you 
 The above command adds below section to your profile:
 
     [profile test]
-    s3 =
-        proxy = http://proxy-host.com:8080
-    s3api =
-        proxy = http://proxy-host.com:8080
+	s3 =
+		proxy = http://proxy-host.com:8080
+	s3api =
+		proxy = http://proxy-host.com:8080
 
 Now you can access S3 using proxy with profile:
 
@@ -56,7 +56,7 @@ If You want to use profile without passing it every time as parameter, use envir
     export AWS_PROFILE=test
 
 Alternative (classic) method
-------------------
+----------------------------
 You can follow the [guide by AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-http-proxy.html) which describes how to use proxy using system environment variables. Here is the example:
 
     export http_proxy=http://proxy-host.com:8080
